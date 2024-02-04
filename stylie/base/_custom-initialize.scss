@@ -1,0 +1,63 @@
+/* define headings */
+.heading-xl{
+    font-size: 4.5rem;
+    line-break: 1.083333em;
+    letter-spacing: 0;
+    font-weight: 700;
+    @include mq( $tablet-breakpoint){
+        font-size: 3.5rem;
+        line-height: 1.142em;
+    }
+    @include mq( $mobile-breakpoint ){
+        font-size: 2.375rem;
+        line-height: 1.157em;
+    }
+}
+
+.heading-l{
+    font-size: 3rem;
+    line-height: 1.166666em;
+    letter-spacing: 0.5px;
+    @include mq( $tablet-breakpoint ){
+        font-size: 2.5rem;
+        line-height: 1.2em;
+    }
+}
+
+.heading-m{
+    font-size: 1.125rem;
+    line-height: 1.77777777em;
+    letter-spacing: 0.2px;
+}
+
+.heading-s{
+    font-size: 1rem;
+    line-height: 1.625em;
+    letter-spacing: 2.5px;
+}
+
+.quote{
+    font-size: 1.25rem;
+    line-height: 1.75em;
+    @include mq( $tablet-breakpoint ){
+        font-size: 1.125rem;
+        line-height: 1.77777em;
+
+    }
+}
+
+.body-text{
+    font-size: 1.125rem;
+    line-height: 1.77777em;
+    @include mq( $tablet-breakpoint ){
+        font-size: 1rem;
+        line-height: 1.75em;
+
+    }
+}
+
+.footer-text{
+    font-size: 0.9375rem;
+    line-height: 2.13em;
+
+}
